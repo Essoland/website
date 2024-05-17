@@ -62,7 +62,7 @@ nav {
     margin-bottom: 60px;
 }
 
-#beranda .button {
+.button {
     display: flex;
     padding: 16px 31px;
     width: 300px;
@@ -71,6 +71,15 @@ nav {
     background: var(--Orange, #FF5F19);
     box-shadow: 0px 0px 10px 0px #FF5F19;
     color: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 15px 5px rgba(255, 69, 0, 0.7);
+    transform: translateY(-5px) scale(1.05);
 }
 
 .tentang .title {
@@ -108,9 +117,7 @@ nav {
     color: var(--White, #7A25E3);
     font-family: Manrope;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .kemasan-card {
@@ -120,6 +127,113 @@ nav {
     background: rgba(255, 255, 255, 0.40);
     box-shadow: 0px 0px 10px 0px #FFF;
     padding: 30px;
+}
+
+/* VO */
+.vo .title {
+    color: var(--White, #FFF);
+    font-family: "Lobster Two";
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 71px;
+}
+
+.vo .col-md-4 {
+    margin-top: -90px;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.centered-button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 50px;
+    background: var(--Orange, #FF5F19);
+    box-shadow: 0px 0px 10px 0px #FF5F19;
+    color: #FFF;
+}
+
+.centered-button:hover {
+    box-shadow: 0px 0px 15px 5px rgba(255, 69, 0, 0.7);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* akhir VO */
+
+
+.img-shop {
+    width: 70%;
+    height: auto;
+}
+
+.shop-title {
+    color: var(--White, #FFF);
+    font-family: "Lobster Two";
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.shop-text {
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+footer {
+    background: #e7d8fa;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(50px);
+
+    height: 572px;
+    flex-shrink: 0;
+
+    padding-left: 150px;
+    padding-top: 96px;
+}
+
+.footer-deskripsi {
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.social-icons {
+    padding: 20px;
+    margin-left: -20px;
+}
+
+.social-icons {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.social-icons:hover {
+    transform: scale(1.1);
 }
 
 
@@ -180,5 +294,9 @@ nav {
     #beranda .subtitle {
         font-size: 18px;
         text-align: justify;
+    }
+
+    .vo1 {
+        display: none;
     }
 }
