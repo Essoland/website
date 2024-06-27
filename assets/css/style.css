@@ -177,7 +177,6 @@ nav {
 
 /* akhir VO */
 
-
 .img-shop {
     width: 70%;
     height: auto;
@@ -344,4 +343,11 @@ footer {
     background-color: #23527c;
     border-color: #1a1d23;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .quiz-container {
+        margin: 20px;
+        padding: 30px;
+    }
 }
