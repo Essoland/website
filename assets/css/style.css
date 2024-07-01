@@ -34,7 +34,7 @@ nav {
 }
 
 #beranda {
-    background-image: url("../img/bg-beranda.png");
+    background-image: url("../img/beranda.png");
     width: 100%;
     height: 92vh;
     background-repeat: no-repeat;
@@ -177,6 +177,10 @@ nav {
 
 /* akhir VO */
 
+.shop {
+    padding-top: 120px;
+}
+
 .img-shop {
     width: 70%;
     height: auto;
@@ -206,6 +210,7 @@ footer {
 
     padding-left: 150px;
     padding-top: 96px;
+    padding-right: 150px;
 }
 
 .footer-deskripsi {
@@ -236,6 +241,26 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+    .shop {
+        margin-top: -250px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .shop .button {
+        padding: 8px 10px;
+        width: 200px;
+    }
+
+    .shop .col-md-8 {
+        display: none;
+    }
+
+    .shop-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
     .kemasan-gif {
         margin-left: 60px;
     }
@@ -301,53 +326,11 @@ footer {
     footer {
         padding-top: 50px;
         padding-left: 10px;
+        padding-right: 10px;
     }
 
     .footer-deskripsi {
         margin-top: 8px;
         margin-bottom: 8px;
-    }
-}
-
-
-/* skrining */
-.quiz-container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.question {
-    margin-bottom: 20px;
-}
-
-.quiz-container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.btn-primary {
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background-color: #23527c;
-    border-color: #1a1d23;
-    color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-    .quiz-container {
-        margin: 20px;
-        padding: 30px;
     }
 }
