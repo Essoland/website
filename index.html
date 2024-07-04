@@ -32,8 +32,11 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Beranda</a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Kami</a>
+                        <a class="nav-link" href="daily_routine.html">Daily Routine</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">VO Relaksasi</a>
@@ -41,14 +44,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Musik Lokal</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Daily Routine</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section id="beranda">
+    <!-- header -->
+    <section class="beranda bg-home">
         <div class="container">
             <div class="title">
                 Temukan Ketenangan dalam Setiap Semprotan
@@ -78,6 +79,7 @@
     <section id="main"
         style="background: var(--Background, linear-gradient(180deg, #7A25E3 8.66%, #BA8EF0 39.81%, #BA8EF0 70.86%, #7A25E3 100%));">
         <div class="container">
+            <!-- tentang -->
             <div class="tentang">
                 <div class="title text-center">Tentang Kami</div>
                 <div class="row">
@@ -95,38 +97,24 @@
                         <img src="assets/img/produk.png" alt="" width="800" height="850" class="tentang-produk">
                     </div>
                 </div>
-            </div>
-            <div class="row kemasan">
-                <div class="col-md-6 order2">
-                    <img src="assets/video/essoland-unscreen.gif" alt="" srcset="" class="kemasan-gif">
-                </div>
-                <div class="col-md-6 order1">
-                    <div class="kemasan-card">
-                        <div class="kemasan-title">Kemasan botol <span style="color: var(--White, #FFF);">spray</span>
-                            <span style="color: var(--Orange, #FF5F19);">Essoland</span> </div>
-                        <p class="mt-4"
-                            style="font-family: Manrope;font-size: 16px;font-weight: 500;letter-spacing: 0.8px; line-height: 28px; text-align: justify;">
-                            Tidak hanya praktis digunakan, tetapi juga memberikan kemudahan dalam mengaplikasikan
-                            aromaterapi di berbagai situasi</p>
+                <div class="row kemasan">
+                    <div class="col-md-6 order2">
+                        <img src="assets/video/essoland-unscreen.gif" alt="" srcset="" class="kemasan-gif">
+                    </div>
+                    <div class="col-md-6 order1">
+                        <div class="kemasan-card">
+                            <div class="kemasan-title">Kemasan botol <span
+                                    style="color: var(--White, #FFF);">spray</span>
+                                <span style="color: var(--Orange, #FF5F19);">Essoland</span> </div>
+                            <p class="mt-4"
+                                style="font-family: Manrope;font-size: 16px;font-weight: 500;letter-spacing: 0.8px; line-height: 28px; text-align: justify;">
+                                Tidak hanya praktis digunakan, tetapi juga memberikan kemudahan dalam mengaplikasikan
+                                aromaterapi di berbagai situasi</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="kandungan">
-                <div class="text-center">
-                    <img src="assets/img/pala.png" alt="" class="img-fluid">
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/img/pandan.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <img src="assets/img/jahe.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div> -->
-
+            <!-- vo -->
             <div class="vo">
                 <div class="title text-center pb-5">VO Relaksasi</div>
                 <div class="row">
@@ -169,10 +157,91 @@
                     </div>
                 </div>
             </div>
+            <!-- daily routine -->
+            <div class="daily">
+                <div class="title text-center pb-5 mt-5">Daily Routine</div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/img/daily/pagi.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <div
+                                    style="color: var(--Dark-Purple, #51068B);font-family: Manrope;font-size: 26px;font-weight: 700;">
+                                    Aktivitas Pagi</div>
+                                <div style="font-family: Manrope;font-size: 14px;font-weight: 400;text-align: justify;">
+                                    Mulailah pagi harimu dengan minum air putih 1-2 gelas untuk menghidrasi tubuh dengan
+                                    energi baru. Jangan lupa untuk sarapan sehat dengan karbohidrat kompleks, protein,
+                                    dan lemak sehat antara pukul 06.00-09.00 untuk energi yang stabil sepanjang hari.
+                                </div>
+                                <div class="button-daily">
+                                    <span style="font-size: 13px;">Baca Selengkapnya</span> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M15.5304 8.53044C15.8233 8.23755 15.8233 7.76268 15.5304 7.46978L10.7575 2.69676C10.4646 2.40386 9.98972 2.40385 9.69682 2.69674C9.40392 2.98963 9.40392 3.46451 9.69681 3.7574L13.9394 8.00009L9.69671 12.2427C9.40381 12.5356 9.40381 13.0104 9.6967 13.3033C9.98959 13.5962 10.4645 13.5962 10.7574 13.3034L15.5304 8.53044ZM5.24035e-05 8.74993L15 8.7501L15.0001 7.2501L6.96668e-05 7.24993L5.24035e-05 8.74993Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/img/daily/siang.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <div
+                                    style="color: var(--Dark-Purple, #51068B);font-family: Manrope;font-size: 26px;font-weight: 700;">
+                                    Aktivitas Siang</div>
+                                <div style="font-family: Manrope;font-size: 14px;font-weight: 400;text-align: justify;">
+                                    Jangan tidur siang terlalu lama, cukup 20-30 menit untuk menghindari gangguan tidur
+                                    malam. Untuk tetap produktif dan efisien, hindari prokrastinasi dengan membuat to-do
+                                    list yang spesifik dan menggunakan teknik Pomodoro saat bekerja atau belajar.
+                                </div>
+                                <div class="button-daily">
+                                    <span style="font-size: 13px;">Baca Selengkapnya</span> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M15.5304 8.53044C15.8233 8.23755 15.8233 7.76268 15.5304 7.46978L10.7575 2.69676C10.4646 2.40386 9.98972 2.40385 9.69682 2.69674C9.40392 2.98963 9.40392 3.46451 9.69681 3.7574L13.9394 8.00009L9.69671 12.2427C9.40381 12.5356 9.40381 13.0104 9.6967 13.3033C9.98959 13.5962 10.4645 13.5962 10.7574 13.3034L15.5304 8.53044ZM5.24035e-05 8.74993L15 8.7501L15.0001 7.2501L6.96668e-05 7.24993L5.24035e-05 8.74993Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/img/daily/malam.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                                <div
+                                    style="color: var(--Dark-Purple, #51068B);font-family: Manrope;font-size: 26px;font-weight: 700;">
+                                    Aktivitas Malam</div>
+                                <div style="font-family: Manrope;font-size: 14px;font-weight: 400;text-align: justify;">
+                                    Batasi kafein setelah pukul 12 siang dan pilih makan malam yang ringan untuk tidur
+                                    nyenyak. Praktikkan teknik relaksasi atau meditasi sebelum tidur dan matikan semua
+                                    gadget satu jam sebelum tidur untuk menghindari paparan blue light yang dapat
+                                    mengganggu produksi hormon melatonin.
+                                </div>
+                                <div class="button-daily">
+                                    <span style="font-size: 13px;">Baca Selengkapnya</span> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M15.5304 8.53044C15.8233 8.23755 15.8233 7.76268 15.5304 7.46978L10.7575 2.69676C10.4646 2.40386 9.98972 2.40385 9.69682 2.69674C9.40392 2.98963 9.40392 3.46451 9.69681 3.7574L13.9394 8.00009L9.69671 12.2427C9.40381 12.5356 9.40381 13.0104 9.6967 13.3033C9.98959 13.5962 10.4645 13.5962 10.7574 13.3034L15.5304 8.53044ZM5.24035e-05 8.74993L15 8.7501L15.0001 7.2501L6.96668e-05 7.24993L5.24035e-05 8.74993Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- shop -->
             <div class="shop">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="shop-title text-center">SHOW NOW!</div>
+                        <div class="shop-title text-center mb-4">SHOW NOW!</div>
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="button shop-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="me-2" width="37" height="37"
