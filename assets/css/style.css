@@ -104,19 +104,19 @@ nav {
     padding: 30px;
 }
 
-.tentang-produk {
+/* .tentang-produk {
     margin-top: -170px;
     margin-left: -100px;
-}
+} */
 
 .kemasan {
     margin-top: -300px;
 }
 
-.kemasan-gif {
+/* .kemasan-gif {
     width: 60%;
     height: auto;
-}
+} */
 
 .kemasan-title {
     color: var(--White, #7A25E3);
@@ -126,8 +126,8 @@ nav {
 }
 
 .kemasan-card {
-    margin-left: 100px;
-    margin-top: 100px;
+    /* margin-left: 100px; */
+    /* margin-top: 100px; */
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.40);
     box-shadow: 0px 0px 10px 0px #FFF;
@@ -136,9 +136,9 @@ nav {
 
 /* VO */
 
-.vo .col-md-4 {
+/* .vo .col-md-4 {
     margin-top: -90px;
-}
+} */
 
 
 .image-container {
@@ -152,25 +152,6 @@ nav {
     display: block;
 }
 
-.centered-button {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    gap: 10px;
-    border-radius: 50px;
-    background: var(--Orange, #FF5F19);
-    color: #FFF;
-}
-
-.centered-button:hover {
-    box-shadow: 0px 0px 15px 5px rgba(255, 69, 0, 0.7);
-    transform: translate(-50%, -50%) scale(1.1);
-}
 
 /* akhir VO */
 
@@ -309,7 +290,7 @@ footer {
 
     .kemasan-card {
         margin-left: 0;
-        margin-top: -80px;
+        margin-top: 0;
     }
 
     .tentang-card {
@@ -317,12 +298,12 @@ footer {
         margin-top: 30px;
     }
 
-    .tentang-produk {
+    /* .tentang-produk {
         margin-top: -50px;
         margin-left: -30px;
         width: 100%;
         height: auto;
-    }
+    } */
 
     .order1 {
         order: 1;
