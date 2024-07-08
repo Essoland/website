@@ -104,19 +104,11 @@ nav {
     padding: 30px;
 }
 
-/* .tentang-produk {
-    margin-top: -170px;
-    margin-left: -100px;
-} */
 
 .kemasan {
     margin-top: -300px;
 }
 
-/* .kemasan-gif {
-    width: 60%;
-    height: auto;
-} */
 
 .kemasan-title {
     color: var(--White, #7A25E3);
@@ -135,10 +127,6 @@ nav {
 }
 
 /* VO */
-
-/* .vo .col-md-4 {
-    margin-top: -90px;
-} */
 
 
 .image-container {
@@ -205,12 +193,17 @@ footer {
     background: #e7d8fa;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(50px);
-    height: 572px;
+    /* height: 572px; */
     flex-shrink: 0;
 
     padding-left: 150px;
     padding-top: 96px;
     padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 50px;
 }
 
 .footer-deskripsi {
@@ -247,10 +240,25 @@ footer {
     margin-top: -50px;
 }
 
+.img-box {
+    width: 80%;
+    height: auto;
+}
+
+.maps {
+    width: 600px;
+    height: 450px;
+}
+
 @media screen and (max-width: 768px) {
-    #main {
-        margin-top: -50px;
+    .maps {
+        width: 100%;
+        height: 120%;
     }
+
+    /* #main {
+        margin-top: -50px;
+    } */
 
     .img-relax {
         width: 70%;
@@ -297,13 +305,6 @@ footer {
         margin-left: 0;
         margin-top: 30px;
     }
-
-    /* .tentang-produk {
-        margin-top: -50px;
-        margin-left: -30px;
-        width: 100%;
-        height: auto;
-    } */
 
     .order1 {
         order: 1;
@@ -353,6 +354,18 @@ footer {
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
+    .img-produk {
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-box {
+        padding-top: 40px;
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
 
 /* Different page */
@@ -381,11 +394,40 @@ footer {
     border: 5px solid var(--Dark-Purple, #51068B);
 }
 
+.daily-quotes {
+    padding: 17px;
+    gap: 10px;
+    border-radius: 10px;
+    /* Manrope/Medium Body Text */
+    font-family: Manrope;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.img-daily {
+    width: 80%;
+    height: 80%;
+}
+
 @media screen and (max-width: 768px) {
     .kotak-kanan {
         padding: 10px;
     }
-    .daily-tambahan{
+
+    .daily-tambahan {
         display: none;
+    }
+
+    .daily-quotes {
+        width: 100%;
+    }
+
+    .img-daily {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dont {
+        margin-top: 50px;
     }
 }
